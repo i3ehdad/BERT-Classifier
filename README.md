@@ -1,2 +1,6 @@
 # BERTweet Language Model Sentiment Classifier
-Implementation of the Bertweet language model for sentiment classification. 
+
+This is a implementation of the Bertweet language model for sentiment classification of tweets. 
+  The fine-tuning precedure is depicted visually in the graph below. 
+  This model Achieved state of the art results (73% Accuracy) based on the SemEval task7a benchamrk. 
+
