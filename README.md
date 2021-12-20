@@ -5,3 +5,5 @@ This is a implementation of the Bertweet language model for sentiment classifica
   This model Achieved state of the art results (73% Accuracy) based on the SemEval task7a benchamrk. 
 
 ![BERT](https://github.com/i3ehdad/BERTweet-Classifier/blob/master/Figures/Figurex.png)
+
+![ScreenShot](/Figures/Figurex.png)
