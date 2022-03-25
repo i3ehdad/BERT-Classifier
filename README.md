@@ -24,17 +24,18 @@ With these developments, the "Bidirectional Encoder Representations from Transfo
 
 The effectiveness of BERT in achieving state of the art results and its comparatively easy adoption in various NLP tasks as oppose to the previous complex neural network architecture design has lead BERT to be the most adopted language model. While BERT has been very effective in processing general language tasks, its adoption in domain specific areas has brought to attention few shortcomings, as it has been trained on generic Wikipedia and open-source news articles. This has led to the introduction of various domain and topic specific BERTs such as SciBERT (for scientific text), FinBERT (for financial text), BioBERT, ClinicalBERT, and LawBERT. Similarly, the BERTweet language model was introduced for Twitter focused NLP tasks. 
 
-the characteristics of the typical Twitter post is very different from more traditional written texts such as Wikipedia and newspaper articles. Unlike conventional language, tweets and other forms social media communication, are generally based on informal grammar and more than often contain irregular vocabulary such as abbreviations, typos, hashtags and odd spellings. Hence, having been trained on only on formal text with regular vocabulary, the BERT model might not be as effective as it has been on tasks with common and non-specific language. The BERTweet variant was developed and pretrained by "VinAI Research", which is the "first public large-scale language model pre-trained for English Tweets. BERTweet is trained based on the [RoBERTa](https://github.com/pytorch/fairseq/blob/master/examples/roberta/README.md) pre-training procedure. The corpus used to pre-train BERTweet consists of 850M English Tweets (16B word tokens ~ 80GB), containing 845M Tweets streamed from 01/2012 to 08/2019 and 5M Tweets related to the COVID-19 pandemic".To further explore the architecture and experimental results refer to the [paper](https://aclanthology.org/2020.emnlp-demos.2/) by VinAI Research.
+the characteristics of the typical Twitter post is very different from more traditional written texts such as Wikipedia and newspaper articles. Unlike conventional language, tweets and other forms social media communication, are generally based on informal grammar and more than often contain irregular vocabulary such as abbreviations, typos, hashtags and odd spellings. Hence, having been trained on only on formal text with regular vocabulary, the BERT model might not be as effective as it has been on tasks with common and non-specific language. The BERTweet variant was developed and pretrained by "VinAI Research", which is the "first public large-scale language model pre-trained for English Tweets. BERTweet is trained based on the [RoBERTa](https://github.com/pytorch/fairseq/blob/master/examples/roberta/README.md) pre-training procedure. The corpus used to pre-train BERTweet consists of 850M English Tweets (16B word tokens ~ 80GB), containing 845M Tweets streamed from 01/2012 to 08/2019 and 5M Tweets related to the COVID-19 pandemic". To further explore the architecture and experimental results refer to the [paper](https://aclanthology.org/2020.emnlp-demos.2/) by VinAI Research.
 
 # <a name="twitter"></a> BERTweet for Twitter Sentiment Analysis
 
-
-This is a implementation of the Bertweet language model for sentiment classification of tweets. 
-  The fine-tuning precedure is depicted visually in the graph below. 
-  This model Achieved state of the art results (73% Accuracy) based on the SemEval task7a benchamrk. 
+The superiority of language models in terms of performance and simplicity in contrast to the previously complex neural architecture design needed for a sufficient performance is their distinguishing factor. Hence, multiple and complex layering is not necessary in the case of language models and could in fact lead to overfitting. The overall procedure of fine-tuning a language model can be intuitively explained as adding a task specific 'head' to the 'end' of the language model. In this implementation of the BERTweet model, BERTweets’s contextualised embeddings will be the input to a 2 layer feed forward neural network classifier. The fine-tuning procedure and evaluation can be found in [BERTweet](https://github.com/i3ehdad/BERT-Sentiment-Classifier/blob/main/BERTweet.ipynb) module and the visualisation of this process can be depicted as below:
 
 <p align="center">
 <img src="/Figures/Figurex.png" width="600" height="330">
 </p>
+
+ This model Achieved state of the art results (73% Accuracy) based on the SemEval task7a benchamrk. 
+
+
 
 
