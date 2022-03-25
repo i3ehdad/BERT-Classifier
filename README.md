@@ -22,6 +22,8 @@ With these developments, the "Bidirectional Encoder Representations from Transfo
 
 ![ScreenShot](/Figures/Figure4.png)
 
+![test image size]<img src="/Figures/Figure4.png" width="400" height="790">
+
 
 # <a name="Bertweet"></a> BERTweet: A pre-trained language model for English Tweets 
 
