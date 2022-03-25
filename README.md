@@ -26,9 +26,9 @@ With these developments, the "Bidirectional Encoder Representations from Transfo
 
 # <a name="Bertweet"></a> BERTweet: A pre-trained language model for English Tweets 
 
+The effectiveness of BERT in achieving state of the art results and its comparatively easy adoption in various NLP tasks as oppose to the previous complex neural network architecture design has lead BERT to be the most adopted language model. While BERT has been very effective in processing general language tasks, its adoption in domain specific areas has brought to attention few shortcomings, as it has been trained on generic Wikipedia and open-source news articles. This has led to the introduction of various domain and topic specific BERTs such as SciBERT (for scientific text), FinBERT (for financial text), BioBERT, ClinicalBERT, and LawBERT. Similarly, the BERTweet language model was introduced for Twitter focused NLP tasks. 
 
-
-BERTweet is the first public large-scale language model pre-trained for English Tweets. BERTweet is trained based on the RoBERTa pre-training procedure. The corpus used to pre-train BERTweet consists of 850M English Tweets (16B word tokens ~ 80GB), containing 845M Tweets streamed from 01/2012 to 08/2019 and 5M Tweets related to the COVID-19 pandemic.
+the characteristics of the typical Twitter post is very different from more traditional written texts such as Wikipedia and newspaper articles. Unlike conventional language, tweets and other forms social media communication, are generally based on informal grammar and more than often contain irregular vocabulary such as abbreviations, typos, hashtags and odd spellings. Hence, having been trained on only on formal text with regular vocabulary, the BERT model might not be as effective as it has been on tasks with common and non-specific language. The BERTweet variant was developed and pretrained by "VinAI Research" and is the first public large-scale language model pre-trained for English Tweets. BERTweet is trained based on the RoBERTa pre-training procedure. The corpus used to pre-train BERTweet consists of 850M English Tweets (16B word tokens ~ 80GB), containing 845M Tweets streamed from 01/2012 to 08/2019 and 5M Tweets related to the COVID-19 pandemic.
 
 # <a name="Classifier"></a> BERTweet Language Model Sentiment Classifier
 
