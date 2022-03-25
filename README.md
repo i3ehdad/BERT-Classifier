@@ -21,7 +21,7 @@ As opposed to the sequential processing of RNN’s, Transformers can perform inp
 With these developments, the "Bidirectional Encoder Representations from Transformers" (BERT) was introduced. Regarded as "conceptually simple and empirically powerful" by the Google researchers, BERT was pre-trained on two unsupervised tasks; Next Sentence Prediction (NSP) and Masked Language Model (MLM). The combination of the two enabled BERT to alleviate the unidirectionality limitation of the previous GPT model. Bidirectionallity being the most emphasised innovative feature by the researchers, BERT has outperformed all the previous models in most of the NLP tasks, particularly in sentiment classification. 
 
 <p align="center">
-<img src="/Figures/Figure4.png" width="480" height="400">
+<img src="/Figures/Figure4.png" width="480" height="380">
 </p>
 
 # <a name="Bertweet"></a> BERTweet: A pre-trained language model for English Tweets 
