@@ -4,10 +4,7 @@
 1. [Introduction to BERT](#introduction)
 2. [BERTweet](#Bertweet)
 3. [BERTweet Language Model Sentiment Classifier](#Classifier)
-    - [Pre-trained models](#models2)
-    - [Example usage](#usage2)
-    - [Normalize raw input Tweets](#preprocess)
-4. [Using BERTweet with `fairseq`](#fairseq)
+4. [BERTweet for Twitter Sentiment Analysis](#twitter)
 
 
 # <a name="introduction"></a> An Introduction to BERT Language Model
@@ -30,7 +27,7 @@ The effectiveness of BERT in achieving state of the art results and its comparat
 
 the characteristics of the typical Twitter post is very different from more traditional written texts such as Wikipedia and newspaper articles. Unlike conventional language, tweets and other forms social media communication, are generally based on informal grammar and more than often contain irregular vocabulary such as abbreviations, typos, hashtags and odd spellings. Hence, having been trained on only on formal text with regular vocabulary, the BERT model might not be as effective as it has been on tasks with common and non-specific language. The BERTweet variant was developed and pretrained by "VinAI Research" and is the first public large-scale language model pre-trained for English Tweets. BERTweet is trained based on the RoBERTa pre-training procedure. The corpus used to pre-train BERTweet consists of 850M English Tweets (16B word tokens ~ 80GB), containing 845M Tweets streamed from 01/2012 to 08/2019 and 5M Tweets related to the COVID-19 pandemic.
 
-# <a name="Classifier"></a> BERTweet Language Model Sentiment Classifier
+# <a name="twitter"></a> BERTweet for Twitter Sentiment Analysis
 
 
 This is a implementation of the Bertweet language model for sentiment classification of tweets. 
