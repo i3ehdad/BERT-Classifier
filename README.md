@@ -37,8 +37,8 @@ This is a implementation of the Bertweet language model for sentiment classifica
   The fine-tuning precedure is depicted visually in the graph below. 
   This model Achieved state of the art results (73% Accuracy) based on the SemEval task7a benchamrk. 
 
-![ScreenShot](/Figures/Figurex.png)
-
-
+<p align="center">
+<img src="/Figures/Figurex.png" width="500" height="500">
+</p>
 
 
