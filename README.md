@@ -3,7 +3,6 @@
 #### Table of contents
 1. [Introduction to BERT](#introduction)
 2. [BERTweet](#Bertweet)
-3. [BERTweet Language Model Sentiment Classifier](#Classifier)
 4. [BERTweet for Twitter Sentiment Analysis](#twitter)
 
 
